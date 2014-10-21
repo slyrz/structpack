@@ -225,8 +225,6 @@ vpack (int fd, const char *fmt, va_list ap)
       case 'L':
       case 'q':
       case 'Q':
-      case 'f':
-      case 'd':
       case 'z':
       case 'Z':
         arg_ptr (&arg0, &app, fmt[0]);
@@ -290,8 +288,6 @@ vunpack (int fd, const char *fmt, va_list ap)
       case 'L':
       case 'q':
       case 'Q':
-      case 'f':
-      case 'd':
       case 'z':
       case 'Z':
         arg_ptr (&arg0, &app, fmt[0]);
